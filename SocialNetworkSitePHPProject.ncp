@@ -1,0 +1,545 @@
+<Project>
+  <Name>SocialNetworkSitePHPProject</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>SocialNetworkSitePHP</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>process</Name>
+        <Access>Public</Access>
+        <Location left="10" top="12" />
+        <Size width="162" height="77" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>signup</Name>
+        <Access>Public</Access>
+        <Location left="62" top="76" />
+        <Size width="162" height="100" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>form</Name>
+        <Access>Public</Access>
+        <Location left="10" top="237" />
+        <Size width="162" height="77" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>login</Name>
+        <Access>Public</Access>
+        <Location left="62" top="299" />
+        <Size width="162" height="96" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>logout</Name>
+        <Access>Public</Access>
+        <Location left="62" top="474" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>facility</Name>
+        <Access>Public</Access>
+        <Location left="10" top="403" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>control</Name>
+        <Access>Public</Access>
+        <Location left="321" top="16" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>session</Name>
+        <Access>Public</Access>
+        <Location left="353" top="104" />
+        <Size width="162" height="90" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>SocialNetwork</Name>
+        <Access>Public</Access>
+        <Location left="696" top="166" />
+        <Size width="162" height="315" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">php functions</Member>
+        <Member type="Field">php header</Member>
+        <Member type="Field">php setup</Member>
+        <Member type="Field">php index</Member>
+        <Member type="Field">php signup</Member>
+        <Member type="Field">php checkuser</Member>
+        <Member type="Field">php login</Member>
+        <Member type="Field">php profile</Member>
+        <Member type="Field">php members</Member>
+        <Member type="Field">php friends</Member>
+        <Member type="Field">php messages</Member>
+        <Member type="Field">php logout</Member>
+        <Member type="Field">css styles</Member>
+        <Member type="Field">js javascript</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>site</Name>
+        <Access>Public</Access>
+        <Location left="696" top="38" />
+        <Size width="162" height="87" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>user</Name>
+        <Access>Public</Access>
+        <Location left="320" top="243" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>profile</Name>
+        <Access>Public</Access>
+        <Location left="367" top="314" />
+        <Size width="162" height="86" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>messaging</Name>
+        <Access>Public</Access>
+        <Location left="318" top="474" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>message</Name>
+        <Access>Public</Access>
+        <Location left="367" top="550" />
+        <Size width="162" height="77" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>messanger</Name>
+        <Access>Public</Access>
+        <Location left="379" top="615" />
+        <Size width="162" height="77" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>friend</Name>
+        <Access>Public</Access>
+        <Location left="332" top="713" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>member</Name>
+        <Access>Public</Access>
+        <Location left="356" top="809" />
+        <Size width="162" height="77" />
+        <Collapsed>False</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>functions</Name>
+        <Access>Public</Access>
+        <Location left="949" top="38" />
+        <Size width="324" height="286" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string dbhost</Member>
+        <Member type="Field">string dbname</Member>
+        <Member type="Field">string dbuser</Member>
+        <Member type="Field">string dbpass</Member>
+        <Member type="Field">string appname</Member>
+        <Member type="Field">int connection</Member>
+        <Member type="Method">public void createtable(string name, string query)</Member>
+        <Member type="Method">public void querymysql(string mysql)</Member>
+        <Member type="Method">public void destroysession()</Member>
+        <Member type="Method">public void sanitizestring(string var)</Member>
+        <Member type="Method">public void showprofile(string user)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>header</Name>
+        <Access>Public</Access>
+        <Location left="949" top="333" />
+        <Size width="324" height="372" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int newField</Member>
+        <Member type="Field">string userstr</Member>
+        <Member type="Field">string user</Member>
+        <Member type="Field">bool loggedin</Member>
+        <Member type="Method">public void session_start()</Member>
+        <Member type="Method">public void printHTML()</Member>
+        <Member type="Method">public void require_once(string functions)</Member>
+        <Member type="Method">public bool isset_session_user()</Member>
+        <Member type="Method">public void printTitle()</Member>
+        <Member type="Method">public void setCSS()</Member>
+        <Member type="Method">public void printBody()</Member>
+        <Member type="Method">public void printHead()</Member>
+        <Member type="Method">public void printAppName()</Member>
+        <Member type="Method">public void script(string javascript)</Member>
+        <Member type="Method">public void printMenuLoggedIn()</Member>
+        <Member type="Method">public void printMenuUnlogged()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>setup</Name>
+        <Access>Public</Access>
+        <Location left="1289" top="868" />
+        <Size width="322" height="354" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int printHTML</Member>
+        <Member type="Method">public void printHead()</Member>
+        <Member type="Method">public void printTitle()</Member>
+        <Member type="Method">public void printBody()</Member>
+        <Member type="Method">public void require_once(string functions)</Member>
+        <Member type="Method">public void createtable()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>members</Name>
+        <Access>Public</Access>
+        <Location left="543" top="713" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string user</Member>
+        <Member type="Field">string pass</Member>
+        <Member type="Field">string INDEXuser</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>messages</Name>
+        <Access>Public</Access>
+        <Location left="718" top="713" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int id</Member>
+        <Member type="Field">string auth</Member>
+        <Member type="Field">string recip</Member>
+        <Member type="Field">char pm</Member>
+        <Member type="Field">int time</Member>
+        <Member type="Field">string message</Member>
+        <Member type="Field">string INDEXauth</Member>
+        <Member type="Field">string INDEXrecip</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>friends</Name>
+        <Access>Public</Access>
+        <Location left="718" top="937" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string user</Member>
+        <Member type="Field">string friend</Member>
+        <Member type="Field">string INDEXuser</Member>
+        <Member type="Field">string INDEXfriend</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>profiles</Name>
+        <Access>Public</Access>
+        <Location left="543" top="937" />
+        <Size width="162" height="216" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string user</Member>
+        <Member type="Field">string text</Member>
+        <Member type="Field">string INDEXuser</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>index</Name>
+        <Access>Public</Access>
+        <Location left="1289" top="503" />
+        <Size width="335" height="351" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">bool loggedin</Member>
+        <Member type="Field">string appname</Member>
+        <Member type="Field">string user</Member>
+        <Member type="Method">public void require_once(php header)</Member>
+        <Member type="Method">public void printWelcome()</Member>
+        <Member type="Method">public void printAppname()</Member>
+        <Member type="Method">public bool is_loggedin()</Member>
+        <Member type="Method">public void printHtml()</Member>
+        <Member type="Method">public void printHead()</Member>
+        <Member type="Method">public void printTitle()</Member>
+        <Member type="Method">public void printBody()</Member>
+        <Member type="Method">public void printIsLoggedIn()</Member>
+        <Member type="Method">public void printIsNotLoggedIn()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>signup</Name>
+        <Access>Public</Access>
+        <Location left="1289" top="38" />
+        <Size width="374" height="446" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int param</Member>
+        <Member type="Field">int request</Member>
+        <Member type="Field">string error</Member>
+        <Member type="Field">string user</Member>
+        <Member type="Field">string pass</Member>
+        <Member type="Method">public void require_once(php header)</Member>
+        <Member type="Method">public void checkUser(string user)</Member>
+        <Member type="Method">public void ajaxRequest()</Member>
+        <Member type="Method">public void open(string methode, php filename, bool type)</Member>
+        <Member type="Method">public void setRequestHeader(string contentType, string applicationtype)</Member>
+        <Member type="Method">public void onReadyStateChange()</Member>
+        <Member type="Method">public void send(string p)</Member>
+        <Member type="Method">public void XMLHttpRequest()</Member>
+        <Member type="Method">public void ActiveXObject(string s)</Member>
+        <Member type="Method">public bool isset_user()</Member>
+        <Member type="Method">public bool isUserNull()</Member>
+        <Member type="Method">public bool isPassNull()</Member>
+        <Member type="Method">public void queryysql()</Member>
+        <Member type="Method">public void num_rows()</Member>
+        <Member type="Method">public void die()</Member>
+        <Member type="Method">public void printForm()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>checkuser</Name>
+        <Access>Public</Access>
+        <Location left="950" top="718" />
+        <Size width="323" height="404" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int user</Member>
+        <Member type="Field">int result</Member>
+        <Member type="Method">public void require_once(php functions)</Member>
+        <Member type="Method">public bool isset_user()</Member>
+        <Member type="Method">public void queryMysql()</Member>
+        <Member type="Method">public void num_rows()</Member>
+        <Member type="Method">public bool isUsersTaken()</Member>
+        <Member type="Method">public bool isUserAvailable()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>login</Name>
+        <Access>Public</Access>
+        <Location left="1696" top="38" />
+        <Size width="358" height="447" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">string error</Member>
+        <Member type="Field">string user</Member>
+        <Member type="Field">string pass</Member>
+        <Member type="Field">int result</Member>
+        <Member type="Method">public void require_one(php header)</Member>
+        <Member type="Method">public bool isset_user()</Member>
+        <Member type="Method">public bool isUserNull()</Member>
+        <Member type="Method">public void isPassNull()</Member>
+        <Member type="Method">public void queryMysql()</Member>
+        <Member type="Method">public void num_rows()</Member>
+        <Member type="Method">public void printError()</Member>
+        <Member type="Method">public void addUserToSession()</Member>
+        <Member type="Method">public void addPassToSession()</Member>
+        <Member type="Method">public void die()</Member>
+        <Member type="Method">public void printForm()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>profile</Name>
+        <Access>Public</Access>
+        <Location left="1696" top="503" />
+        <Size width="376" height="508" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int loggedin</Member>
+        <Member type="Field">int saveto</Member>
+        <Member type="Field">bool typeok</Member>
+        <Member type="Field">int max</Member>
+        <Member type="Field">int tw</Member>
+        <Member type="Field">int th</Member>
+        <Member type="Method">public void require_once(php header)</Member>
+        <Member type="Method">public bool isLoggedIn()</Member>
+        <Member type="Method">public void prep_replace()</Member>
+        <Member type="Method">public void fetch_array()</Member>
+        <Member type="Method">public bool issetFiles()</Member>
+        <Member type="Method">public void moveUploadedFile()</Member>
+        <Member type="Method">public void selectFileType()</Member>
+        <Member type="Method">public void list()</Member>
+        <Member type="Method">public void getImageSize()</Member>
+        <Member type="Method">public void resizeImage()</Member>
+        <Member type="Method">public void imageCreateTrueColor()</Member>
+        <Member type="Method">public void imageCopyResampled()</Member>
+        <Member type="Method">public void imageConvolution()</Member>
+        <Member type="Method">public void imageJPEG()</Member>
+        <Member type="Method">public void imageDestroy()</Member>
+        <Member type="Method">public void showProfile()</Member>
+        <Member type="Method">public void printForm()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>members</Name>
+        <Access>Public</Access>
+        <Location left="2096" top="38" />
+        <Size width="349" height="483" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">bool loggedin</Member>
+        <Member type="Field">int view</Member>
+        <Member type="Field">int add</Member>
+        <Member type="Field">int remove</Member>
+        <Member type="Method">public void require_one(php header)</Member>
+        <Member type="Method">public bool isLoggedin()</Member>
+        <Member type="Method">public void issetView()</Member>
+        <Member type="Method">public void ifViewUser()</Member>
+        <Member type="Method">public void showProfile()</Member>
+        <Member type="Method">public void issetAdd()</Member>
+        <Member type="Method">public void issetRemove()</Member>
+        <Member type="Method">public void printOtherMembers()</Member>
+        <Member type="Method">public void isAMutualFriend()</Member>
+        <Member type="Method">public void youFollowingUser()</Member>
+        <Member type="Method">public void isFolowingYou()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>friends</Name>
+        <Access>Public</Access>
+        <Location left="2096" top="564" />
+        <Size width="379" height="502" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">bool loggedin</Member>
+        <Member type="Field">int view</Member>
+        <Member type="Field">int user</Member>
+        <Member type="Field">List&lt;string&gt; followers</Member>
+        <Member type="Field">List&lt;string&gt; following</Member>
+        <Member type="Field">int result</Member>
+        <Member type="Field">int num</Member>
+        <Member type="Field">int mutual</Member>
+        <Member type="Field">bool friends</Member>
+        <Member type="Method">public void require_one(php header)</Member>
+        <Member type="Method">public bool isLoggedIn()</Member>
+        <Member type="Method">public void issetView()</Member>
+        <Member type="Method">public bool isViewUser()</Member>
+        <Member type="Method">public void printUser()</Member>
+        <Member type="Method">public void showprofile()</Member>
+        <Member type="Method">public void addFolowers()</Member>
+        <Member type="Method">public void addFolowings()</Member>
+        <Member type="Method">public void array_intersect()</Member>
+        <Member type="Method">public void arrayDiff()</Member>
+        <Member type="Method">public void sizeofMutual()</Member>
+        <Member type="Method">public void printMutuals()</Member>
+        <Member type="Method">public void printFollowers()</Member>
+        <Member type="Method">public void pritnFollowings()</Member>
+        <Member type="Method">public bool isFriendsFalse()</Member>
+        <Member type="Method">public void sendMessageTo()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>messages</Name>
+        <Access>Public</Access>
+        <Location left="1644" top="1069" />
+        <Size width="448" height="741" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int loggedin</Member>
+        <Member type="Field">int view</Member>
+        <Member type="Field">int user</Member>
+        <Member type="Field">int text</Member>
+        <Member type="Field">int pm</Member>
+        <Member type="Field">int time</Member>
+        <Member type="Field">int name1</Member>
+        <Member type="Field">int name2</Member>
+        <Member type="Field">int erase</Member>
+        <Member type="Field">int query</Member>
+        <Member type="Field">int result</Member>
+        <Member type="Field">int num</Member>
+        <Member type="Field">int row</Member>
+        <Member type="Method">public void require_once(php header)</Member>
+        <Member type="Method">public void isLoggedIn()</Member>
+        <Member type="Method">public void issetView()</Member>
+        <Member type="Method">public void sanitizeString()</Member>
+        <Member type="Method">public void issetText()</Member>
+        <Member type="Method">public bool isTextNotNull()</Member>
+        <Member type="Method">public void substr()</Member>
+        <Member type="Method">public void time()</Member>
+        <Member type="Method">public void queryMysql()</Member>
+        <Member type="Method">public bool isViewNotNull()</Member>
+        <Member type="Method">public void isViewUser()</Member>
+        <Member type="Method">public void showprofile()</Member>
+        <Member type="Method">public void printForm()</Member>
+        <Member type="Method">public void issetErase()</Member>
+        <Member type="Method">public void fetch_array()</Member>
+        <Member type="Method">public void printDate()</Member>
+        <Member type="Method">public void printMessage()</Member>
+        <Member type="Method">public void SearchMessages()</Member>
+        <Member type="Method">public void printNumbersOfMessages()</Member>
+        <Member type="Method">public void printNoMessagesYet()</Member>
+        <Member type="Method">public void refreshMembers()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>logout</Name>
+        <Access>Public</Access>
+        <Location left="2155" top="1102" />
+        <Size width="371" height="225" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int user</Member>
+        <Member type="Method">public void require_once(php header)</Member>
+        <Member type="Method">public void issetUser()</Member>
+        <Member type="Method">public void destroySession()</Member>
+        <Member type="Method">public void printErroLoggIn()</Member>
+        <Member type="Method">public void Loggin()</Member>
+        <Member type="Method">public void printErrorLoginMessage()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>styles</Name>
+        <Access>Public</Access>
+        <Location left="50" top="833" />
+        <Size width="162" height="400" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int fontfamily</Member>
+        <Member type="Field">int fontsize</Member>
+        <Member type="Field">int body</Member>
+        <Member type="Field">int html</Member>
+        <Member type="Field">int imb</Member>
+        <Member type="Field">int li</Member>
+        <Member type="Field">int a</Member>
+        <Member type="Field">int button</Member>
+        <Member type="Field">int appname</Member>
+        <Member type="Field">int fieldname</Member>
+        <Member type="Field">int main</Member>
+        <Member type="Field">int info</Member>
+        <Member type="Field">int menu</Member>
+        <Member type="Field">int subhead</Member>
+        <Member type="Field">int taken</Member>
+        <Member type="Field">int error</Member>
+        <Member type="Field">int available</Member>
+        <Member type="Field">int wisper</Member>
+        <Member type="Field">int logo</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>javascript</Name>
+        <Access>Public</Access>
+        <Location left="231" top="1026" />
+        <Size width="162" height="247" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">int canvas</Member>
+        <Member type="Field">int context</Member>
+        <Member type="Field">int image</Member>
+        <Member type="Method">public void o()</Member>
+        <Member type="Method">public void s()</Member>
+        <Member type="Method">public void c()</Member>
+        <Member type="Method">public void onload()</Member>
+        <Member type="Method">public void src()</Member>
+        <Member type="Method">public void font()</Member>
+        <Member type="Method">public void textbaseline()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships />
+  </ProjectItem>
+</Project>

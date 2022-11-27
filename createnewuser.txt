@@ -1,0 +1,9 @@
+ MySQL a returnat un set de rezultate gol (adică zero rânduri). (Interogarea a durat 0,0023 secunde.)
+CREATE USER 'robinsnest'@'localhost' IDENTIFIED BY 'rnpassword';
+[ Editează în-linie ] [ Editează ] [ Creează cod PHP ]
+ MySQL a returnat un set de rezultate gol (adică zero rânduri). (Interogarea a durat 0,0010 secunde.)
+GRANT ALL PRIVILEGES ON * . * TO 'robinsnest'@'localhost';
+[ Editează în-linie ] [ Editează ] [ Creează cod PHP ]
+ MySQL a returnat un set de rezultate gol (adică zero rânduri). (Interogarea a durat 0,0004 secunde.)
+FLUSH PRIVILEGES;
+[ Editează în-linie ] [ Editează ] [ Creează cod PHP ]
